@@ -80,7 +80,6 @@ form #Nom,
 #Prix {
     width: 100%;
     height: 42px;
-    /* margin-bottom: 2%; */
     background: transparent;
 }
 #ajouter {
