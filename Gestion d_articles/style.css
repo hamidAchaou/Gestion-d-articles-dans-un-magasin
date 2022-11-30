@@ -5,14 +5,12 @@ td {
     background-color: #eee;
     /* color: #eee; */
 }
-
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
 }
-
 body {
     margin: 0;
     padding: 0;
@@ -20,13 +18,11 @@ body {
     background: url(images/4.jpg) center center/cover no-repeat;
     font-family: 'Mohave', sans-serif;
 }
-
 :root {
     --main-color: #F49D1A;
     --color-2: #DC3535;
     --color-3: #B01E68;
 }
-
 main {
     /* margin: 6%; */
     /* padding: 3%; */
@@ -40,11 +36,6 @@ h2 {
     font-weight: bold;
     font-family: sans-serif;
 }
-
-
-
-
-
 /* =========== style Form =================== */
 #sec-form {
     padding: 3%;
@@ -106,7 +97,6 @@ table {
     margin-top: 10%;
     text-align: center;
 }
-
 thead tr td {
     background-color: #06283D;
     font-weight: bold;
@@ -118,7 +108,6 @@ tbody tr td {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 tbody tr td .btn-supp {
     text-decoration: none;
     font-weight: 600;
@@ -157,14 +146,12 @@ thead tr td:last-child {
     /* border-top-left-radius: 5px; */
     border-top-right-radius: 6px;
 }
-
 /* STYLE MODALE */
 #mod {
   display: none;
   /* color: #eee; */
   /* background-color: #06283D; */
 }
-
 .cancelbtn {
   background-color: #F49D1A;
     height: 48px;
@@ -180,7 +167,6 @@ thead tr td:last-child {
 .cancelbtn:hover {
   background-color: #06283D;
 }
-
 .close {
   display: flex;
   justify-content: flex-end;
@@ -188,7 +174,6 @@ thead tr td:last-child {
   padding-top: 15px;
   cursor: pointer;
 }
-
 .deletebtn {
   background-color: #ba4646;
   height: 48px;
@@ -204,7 +189,6 @@ thead tr td:last-child {
 .deletebtn:hover {
   background-color: #06283D;
 }
-
 .modal-content {
   display: block;
   margin: auto;
@@ -215,15 +199,12 @@ thead tr td:last-child {
   border-radius: 30px;
   margin-bottom: 30px;
 }
-
 .modal h1 {
   font-size: 2rem;
 }
-
 .modal p {
   font-size: 1rem;
 }
-
 .modal {
   display: none;
   position: fixed;
@@ -255,7 +236,6 @@ thead tr td:last-child {
 .tostyle {
   padding: 7px;
 }
-
 /* {Change} styles for cancel button and delete button on extra small screens */
 @media screen and (max-width: 400px) {
   .cancelbtn, .deletebtn {
@@ -265,5 +245,4 @@ thead tr td:last-child {
     grid-template-columns: 1fr;
     /* grid-template-rows: 1fr 1fr; */
   }
-
 }

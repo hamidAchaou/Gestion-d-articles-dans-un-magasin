@@ -36,7 +36,7 @@ form.addEventListener("submit", (e) =>{
     let resultPrix = document.getElementById("resultPrix");
     let resultdate = document.getElementById("resultdate");
     let resulttyp = document.getElementById("resulttyp");
-    let regNam = /[a-z\s]{3,30}$/i;
+    let regNam = /[a-z\s]{2,30}$/i;
 
     // valide Nom
     if (Nom == "" || regNam.test(Nom) === false) {
