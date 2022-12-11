@@ -38,7 +38,7 @@ form.addEventListener("submit", (e) =>{
     let resulttyp = document.getElementById("resulttyp");
     let regNam = /[a-z\s]{2,30}$/i;
 
-    // valide Nom
+    // valide name
     if (Nom == "" || regNam.test(Nom) === false) {
         let Nom = document.querySelector("#Nom");
         resultNane.innerText = "please chose your Name"
@@ -46,7 +46,7 @@ form.addEventListener("submit", (e) =>{
         Nom.style.borderColor = "red"
     } 
 
-    // Valide la Marque
+    // Valide Marque
     else if (Marque == "" || regNam.test(Marque) === false) {
         let Marque = document.querySelector("#Marque");
         resultMarque.innerText = "please chose your Marque"
@@ -54,7 +54,7 @@ form.addEventListener("submit", (e) =>{
         Marque.style.borderColor = "red"
     } 
 
-    // Valide la Prix
+    // Valide Prix
     else if (Prix == "") {
         let Prix = document.querySelector("#Prix");
         resultPrix.innerText = "please chose production Prix "
@@ -103,7 +103,7 @@ form.addEventListener("submit", (e) =>{
         resulttyp.innerText = " ";
         typRes.style.borderColor = "green"
         resProm.innerText = ""
-    // Add tbody in table
+    // Add tobody in table
         if (sellectedRow == null) {
         let marqToBdy = document.querySelector("#toBody");
         let rowTr = document.createElement("tr");
@@ -127,8 +127,6 @@ form.addEventListener("submit", (e) =>{
         document.getElementById("ajouter").value = "ajouter";
 
         } else {
-            let resP = document.querySelectorAll("p")
-            resP.innerHTML = "";
             sellectedRow.children[0].textContent = Nom;
             sellectedRow.children[1].textContent = Marque;
             sellectedRow.children[2].textContent = Prix;
